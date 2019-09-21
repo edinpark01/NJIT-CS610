@@ -22,8 +22,8 @@ Passenger object will have the following attributes:
 * **Type:** First Class OR Coach Class
 * **Arrival Time:** Random, but subject to average arrival times.
   * ***For Example:***
-    * First class passenger every five (5) minutes.
-    * Coach passenger every two (2) minutes on average. 
+    * First class passenger arrives every five (5) minutes on average.
+    * Coach passenger arrives every two (2) minutes on average.
     * Actual arrival times are random.
 * **Service Time:** Random, but subject to average service times.
   * ***For Example:***
@@ -42,7 +42,7 @@ Passenger object will have the following attributes:
 * **Termination:**
   * Simulation ends when all the queues are empty and all the service stations are free.
 
-## Inputs to the simulation
+## Inputs
 
 * `Duration of the check in` (make it arbitrarily long, do not worry about it being or not being realistic).
 * `Coach average arrival rate`
@@ -50,7 +50,7 @@ Passenger object will have the following attributes:
 * `First class average arrival rate`
 * `First class average service rate`
 
-Outputs of the Simulation:
+## Outputs
 
 * `Duration of the simulation` (which may be longer than the input parameter, as when checkin closes, there may be passengers in the waiting queues and service stations).
 * `Maximum length of the queue` for each queue.
