@@ -32,7 +32,7 @@ Passenger object will have the following attributes:
     * Actual times vary.
     * All times are measured in minutes.
 
-### The simulation
+## The simulation
 
 * **Initialization:**
   * Empty waiting queues
@@ -42,7 +42,7 @@ Passenger object will have the following attributes:
 * **Termination:**
   * Simulation ends when all the queues are empty and all the service stations are free.
 
-## Inputs
+### Inputs
 
 * `Duration of the check in` (make it arbitrarily long, do not worry about it being or not being realistic).
 * `Coach average arrival rate`
@@ -50,7 +50,7 @@ Passenger object will have the following attributes:
 * `First class average arrival rate`
 * `First class average service rate`
 
-## Outputs
+### Outputs
 
 * `Duration of the simulation` (which may be longer than the input parameter, as when checkin closes, there may be passengers in the waiting queues and service stations).
 * `Maximum length of the queue` for each queue.
