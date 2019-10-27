@@ -1,0 +1,46 @@
+{
+    "simulation001": {
+        "checkInDuration": 160,
+        "coach": {
+            "arrivalRate": 6,
+            "serviceRate": 5
+        },
+        "firstClass": {
+            "arrivalRate": 4,
+            "serviceRate": 6
+        }
+    },
+    "simulation002": {
+        "checkInDuration": 1400,
+        "coach": {
+            "arrivalRate": 7,
+            "serviceRate": 16
+        },
+        "firstClass": {
+            "arrivalRate": 10,
+            "serviceRate": 18
+        }
+    },
+    "simulation003": {
+        "checkInDuration": 4000,
+        "coach": {
+            "arrivalRate": 2,
+            "serviceRate": 16
+        },
+        "firstClass": {
+            "arrivalRate": 2,
+            "serviceRate": 5
+        }
+    },
+    "simulation004": {
+        "checkInDuration": 60000,
+        "coach": {
+            "arrivalRate": 5,
+            "serviceRate": 5
+        },
+        "firstClass": {
+            "arrivalRate": 5,
+            "serviceRate": 5
+        }
+    }
+}
