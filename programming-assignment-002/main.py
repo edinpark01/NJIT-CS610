@@ -9,7 +9,6 @@
 import logging
 
 from builders import expression
-
 from application_constants import TOKEN, TEST_CASES
 from utils import evaluate_tree, print_results
 
